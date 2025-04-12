@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="left">
+            <a href="/">T. Mochamad Rafly</a>
+        </div>
+
+        <div class="right">
+            <a href="https://github.com/mochaisme" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-square-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/t-mochamad-rafly" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+
+            <a href="mailto:trafly76@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- SECTION 1: Hero -->
+        <section class="hero-section">
+
+            <div class="text">
+                <h2>Hi, I'm Mocha 👋</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam porro natus sequi alias non aperiam officiis excepturi repellendus illum iure, sed soluta commodi impedit? Ipsam error ducimus quas temporibus, ad nisi earum quisquam eum corporis, praesentium fuga. Necessitatibus, aspernatur doloribus. Minus optio deleniti incidunt possimus praesentium vitae. Vitae, libero blanditiis!</p>
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                    <a href="#testimony">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>Testimony</span>
+                    </a>
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="headshot">
+                <img src="images/hero-headshot.webp" alt="T. Mochamad Rafly Headshot">
+            </div>
+
+        </section>
+
+        <!-- SECTION 2: Skills -->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, minima alias facilis voluptates rerum nam culpa nemo? Esse, illo et cumque, labore odit deleniti blanditiis consequuntur facilis numquam omnis quaerat.
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="images/html-logo.webp" alt="html logo">
+                    <span>HTML</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/grafana-logo-cropped.webp" alt="css logo">
+                    <span>Grafana</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/python-logo-cropped.webp" alt="python logo">
+                    <span>Python</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/n8n-color_cropped.webp" alt="n8n logo">
+                    <span>N8N</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/google-cloud-logo3.webp" alt="google cloud logo">
+                    <span>Cloud</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: Testimony -->
+        <section id="testimony" class="testimony-section">
+            <h2>Testimony</h2>
+            <div class="group">
+                <div class="person-details">
+                    <img src="images/testimony-headshot2_cropped.webp">
+                    <p>Arneidha</p>
+                    <p>lorem ipsum dolor sit.</p>
+                </div>
+
+                <div class="text">
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae eos ducimus quis laborum officiis natus adipisci nesciunt, repudiandae saepe reprehenderit magnam nemo excepturi dicta! Dolor itaque, quasi sequi dicta deserunt explicabo laborum voluptas voluptate delectus dolore a qui at provident reiciendis eius! Dolorem deleniti accusamus ex doloribus optio dolore unde."
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: Contact -->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+            <div class="group">
+                <div class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, libero tempora accusantium assumenda cupiditate error quidem inventore, quo nisi recusandae fuga saepe voluptas omnis debitis provident minus iure. Odit at alias excepturi quibusdam amet, eligendi natus vero expedita vitae repellat! Commodi unde assumenda totam dolor harum nisi veniam asperiores provident.
+                </div>
+
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+
+                    <label for="message">Message</label>
+                    <textarea id="message"></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>
